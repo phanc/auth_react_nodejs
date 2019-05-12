@@ -1,0 +1,20 @@
+{
+  "name": "auth_server",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "nodemon --experimental-modules app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.6",
+    "nodemon": "^1.19.0"
+  },
+  "dependencies": {},
+  "description": ""
+}
